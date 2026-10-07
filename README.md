@@ -27,3 +27,7 @@ omarchy plugin enable martinmose.wireview
 ```
 
 IPC: `quickshell ipc -p /usr/share/omarchy/shell call martinmose.wireview toggle`
+
+## License
+
+[MIT](LICENSE)
