@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "martinmose.wireview",
+  "name": "WireView",
+  "version": "0.1.0",
+  "author": "Martin Mose Facondini",
+  "description": "GPU power connector watts, per-pin current, temperatures and faults from a Thermal Grizzly WireView Pro II",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "WireView",
+    "description": "GPU 12V-2x6 connector power, per-pin current and faults",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
