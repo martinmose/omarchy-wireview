@@ -2,6 +2,8 @@
 
 An Omarchy shell bar widget for the Thermal Grizzly WireView Pro II (standard and Noctua Edition) GPU power monitor.
 
+![WireView popup with total power, per-pin current, temperatures and energy](screenshot.png)
+
 - **Bar:** connector power in watts. The icon turns urgent on an active fault or when a pin carries more than the connector's 9.5 A rating.
 - **Popup (left click):** total power, current and average voltage, current per pin with the highest pin highlighted, spread between pins, all four temperatures, logged faults, energy and fan duty.
 - **Right click:** opens `wireviewctl top` in a terminal.
